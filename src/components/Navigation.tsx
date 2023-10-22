@@ -28,7 +28,7 @@ export function Navigation() {
   const { authority } = useProgram();
 
   const Self = {
-    link: `/sp/${authority}`,
+    link: `/sp/${authority.toString()}`,
     title: "HomePage",
     strings: `${authority}`,
   };

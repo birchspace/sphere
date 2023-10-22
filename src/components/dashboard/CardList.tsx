@@ -7,7 +7,6 @@ import { ProgramAccount } from "@project-serum/anchor";
 
 export function CardList() {
   const { allConfessions } = useProgram();
-  console.log("allConfessions", allConfessions);
 
   return (
     <div className="grid h-full w-full grid-cols-3 gap-8">

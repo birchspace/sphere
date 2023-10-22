@@ -30,7 +30,7 @@ export default function Parcel(
         </div>
         <div className="absolute h-full w-full overflow-x-hidden bg-gradient-to-t from-neutral-950" />
         <div className="absolute flex h-full w-full flex-col overflow-x-hidden p-6 md:flex-row md:p-12">
-          <div className="my-auto md:mb-0 md:mr-auto md:mt-auto">
+          <div className="my-auto md:mb-0 md:mr-auto gap-4 space-y-6 md:mt-auto">
             {init ? (
               <h1 className="pb-1 font-display text-4xl font-semibold text-neutral-50 md:pb-3 md:text-5xl lg:text-6xl xl:text-8xl">
                 {props.name}

@@ -8,12 +8,11 @@ import heroMina from "public/images/hero.webp";
 import { useProgram } from "~/context/ProgramContext";
 
 export function SpCard() {
-  const { userName } = useProgram();
-  console.log(userName, "by userName");
+  const { userName, authority } = useProgram();
 
   return (
     <section className="w-full snap-y snap-mandatory overflow-y-auto">
-      <Parcel name={userName} description="description">
+      <Parcel name={userName} description={authority.toString()}>
         <Image
           fill
           src={heroMina}
