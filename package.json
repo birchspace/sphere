@@ -1,0 +1,57 @@
+{
+  "name": "sphere",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.1.13",
+    "@project-serum/anchor": "^0.26.0",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
+    "@radix-ui/react-portal": "^1.0.4",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-wallets": "^0.19.23",
+    "@solana/web3.js": "^1.87.2",
+    "@t3-oss/env-nextjs": "^0.7.0",
+    "bs58": "^5.0.0",
+    "focus-trap-react": "^10.2.3",
+    "framer-motion": "^10.16.4",
+    "lottie-react": "^2.4.0",
+    "lucide-react": "^0.288.0",
+    "next": "^13.5.4",
+    "node-emoji": "^2.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-responsive": "^9.0.2",
+    "react-toastify": "^9.1.3",
+    "unique-names-generator": "^4.7.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.2",
+    "@types/node": "^18.16.0",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.47.0",
+    "eslint-config-next": "^13.5.4",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  },
+  "ct3aMetadata": {
+    "initVersion": "7.22.0"
+  },
+  "packageManager": "pnpm@8.9.0"
+}
