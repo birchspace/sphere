@@ -17,6 +17,7 @@
 /out/
 next-env.d.ts
 
+/program/target
 # production
 /build
 
